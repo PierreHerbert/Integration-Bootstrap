@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital@0;1&family=Raleway:wght@100;300&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script.js"></script>
+    <title>SURFING</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- NAVBAR  -->
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+
+                    <div class="col-3">
+                        <h3>Surfeur Co.</h3>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="col-7" id="div-nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#planche">BOARDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ACCESSORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section1">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TECHNOLOGIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section2">TEAM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section4">DEALERS</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <ul id="reseaux">
+                            <li><i class="fab fa-facebook-f fb"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
+                            <li><i class="fas fa-envelope"></i></i></li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+        <!-- fin NAVABAR  -->
+
+
+        <!-- TITRE  -->
+        <div class="container d-flex flex-column justify-content-center align-items-center " id="partie1">
+            <div class="row ">
+                <div class="col-12 titre1">
+                    <h1 class="col-12 titre1 text-center">Ride every wave as if it's your last</h1>
+                    <h3 class="col-12 titre2 text-center">We love the motion of the ocean</h3>
+                </div>
+            </div>
+        </div>
+        <!-- fin TITRE  -->
+
+
+
+        <!-- planche de surf  -->
+        <div class="container surf d-flex justify-content-center" id="planche">
+            <div class="row">
+                <div class="container col-10 planche d-flex">
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <div id="triangle"></div>
+                            <img src="./img/Board.png" alt="planche de surf" id="surf-img">
+                        </div>
+                        <div class="col-1 d-flex flex-column justify-content-center">
+                            <img src="./img/Photo.png" alt="">
+                            <img src="./img/board2.png" alt="">
+                            <img src="./img/board3.png" alt="">
+                            <img src="./img/board4.png" alt="">
+
+                        </div>
+
+
+                        <!-- partie tabs ( a droite ) -->
+                        <div class="col-6 surf-titre d-flex flex-column justify-content-around">
+
+                            <!-- titre partie droite + fleche gauche  -->
+                            <div class="d-flex">
+                                <h3 class="col-10">JR SurfBoards The Donny Stoker Yellow/Green Rail Fade</h3>
+                                <div class="col-2 d-flex flex-column align-items-end justify-content-between">
+                                    <button class="btn bouton2 rounded-0"><i class="fas fa-arrow-left"></i></button>
+                                    <button class="btn rounded-0 bg-dark bouton4">05/25</button>
+                                </div>
+                            </div>
+                            <!-- fin titre partie droite + fleche gauche -->
+
+                            <!-- étoiles jaunes -->
+                            <div id="etoiles" class="d-flex">
+                                <p>
+                                    <i class="fas fa-star stars"></i>
+                                    <i class="fas fa-star stars"></i>
+                                    <i class="fas fa-star stars"></i>
+                                    <i class="fas fa-star stars"></i>
+                                    <i class="far fa-star"></i>
+
+                                </p>
+                                <p>(52)</p>
+                            </div>
+                            <!-- fin étoiles jaunes  -->
+
+
+                            <!-- tabs  -->
+
+                            <!-- titre tabs  -->
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                        aria-selected="true">DESCRIPTION</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                                        aria-selected="false">FEATURES</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="messages-tab" data-bs-toggle="tab"
+                                        data-bs-target="#messages" type="button" role="tab" aria-controls="messages"
+                                        aria-selected="false">DIMENSIONS</button>
+                                </li>
+                            </ul>
+                            <!-- fin titre tabs  -->
+
+                            <!-- texte tabs  -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">Easy
+                                    to ride, care free surfing craft that's fun for everyone, paddles well, super fast
+                                    down the line and great for any level of surfing depending on who rides it. The
+                                    Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to
+                                    surf and fun board. The Donny Stoker is a board for total freesurfing expression.
+                                </div>
+                            </div>
+                            <!-- fin texte tabs -->
+
+                            <!-- fin tabs  -->
+                            <div class="d-flex">
+                                <h3 class="me-5 prix">$499.99</h3>
+                                <button type="button" class="btn bouton1 border-0 ps-5 pe-5 rounded-0">BUY NOW</button>
+                            </div>
+                            <div>
+                                <a href="" class="all-boards">View All Boards</a>
+                            </div>
+                        </div>
+                        <!-- fin div tabs (a droite) -->
+
+                    </div>
+
+
+                    <!-- fleche droite  -->
+                    <div class=" d-flex">
+                        <button class="btn col-1 bouton3 rounded-0 order-2 position-absolute"><i
+                                class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <!-- fin fleche droite  -->
+
+                </div>
+                <div class="col-1" id="boards">
+                    <h3>BOARDS</h3>
+                </div>
+            </div>
+
+        </div>
+        <!-- fin planche de surf  -->
+
+    </header>
+    <!-- fin header  -->
+
+    <!-- ================================================================================================== -->
+
+    <!-- section 1 video  -->
+    <section id="section1">
+
+        <!-- titre en arrire plan  -->
+        <div class="d-flex justify-content-center">
+            <h1 id="ABOUT-US">ABOUT US</h1>
+        </div>
+        <!-- fin titre ne arriere plan  -->
+
+
+        <!-- grande image dans le fond  -->
+        <div id="img-surf">
+            <img src="./img/surfeur1.png" alt="image de surfeur sur une vague">
+        </div>
+        <!-- fin grande image dans le fond  -->
+
+
+        <!-- zone de texte avec fon blanc par dessus l'image  -->
+        <div class="container-fluid div-text d-flex align-items-end">
+            <div class="row">
+                <div id="zone-texte" class="col-6 bg-light">
+                    <div class="col-5 offset-6  d-flex flex-column align-items-center container-text">
+                        <h3>We are surfers and co.</h3>
+                        <i class="fas fa-times fa-2x"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolor, placeat aliquam enim
+                            atque,
+                            possimus porro error sunt aperiam optio soluta sed tempora. Numquam debitis vel nemo
+                            expedita, mollitia
+                            recusandae!</p>
+
+                    </div>
+                    <div class="col-5 offset-6 d-flex flex-column align-items-start container-text">
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin zone de texte avec fon blanc par dessus l'image  -->
+
+
+        <!-- video de surf  -->
+        <div id="div-img-surf" class="container-fluid d-flex align-items-end justify-content-center">
+            <div class="row">
+                <img src="./img/surfeur2.png" alt="surfeur sur une vague" class="col-3 offset-7">
+            </div>
+        </div>
+        <!-- video de surf  -->
+
+    </section>
+    <!-- fin section 1 video  -->
+
+    <!-- ================================================================================================= -->
+
+    <!-- section 2 team  -->
+    <section id="section2">
+
+        <!-- titre arriere plans  -->
+        <div class="d-flex justify-content-center">
+            <h1 id="OUR-TEAM">OUR TEAM</h1>
+        </div>
+        <!-- fin titre arriere plan  -->
+
+
+
+        <!-- cards group  -->
+        <div class="card-group container-fluid justify-content-center">
+            <div class="row col-12 justify-content-center">
+
+                <!-- fleche gauche  -->
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <a href=""><i class="fas fa-arrow-left fleche"></i></a>
+                </div>
+                <!-- fin fleche gauche  -->
+
+
+                <!-- card 1  -->
+                <div class="card team1 col-2">
+                    <img src="./img/team1.png" class="card-img-top" alt="image 1 de la team ">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <h5 class="card-title">Taj Burrow</h5>
+                        <p class="card-text">@tajamos</p>
+                        <i class="fas fa-water"></i>
+
+                        <div class="d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Yallingup , Australia</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 1  -->
+
+
+
+                <!-- card 2  -->
+                <div class="card team2 col-2">
+                    <img src="./img/team2.png" class="card-img-top" alt="image 2 de la team">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <h5 class="card-title">Malia Manuel</h5>
+                        <p class="card-text">@maliamanuel</p>
+                        <i class="fas fa-water"></i>
+
+                        <div class="d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Wailua,Hi</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2  -->
+
+
+
+                <!-- card 3  -->
+                <div class="card team3 col-2">
+                    <img src="./img/team3.png" class="card-img-top" alt="image 3 de la team">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <h5 class="card-title">Ian Walsh</h5>
+                        <p class="card-text">@ian.walsh</p>
+                        <i class="fas fa-water"></i>
+
+                        <div class="d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Maui,Hi</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3  -->
+
+
+
+                <!-- card 4  -->
+                <div class="card team4 col-2">
+                    <img src="./img/team4.png" class="card-img-top" alt="image 4 de la team">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <h5 class="card-title">Marcy Callaghan</h5>
+                        <p class="card-text">@mercyjanecallaghan</p>
+                        <i class="fas fa-water"></i>
+                        <div class="d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>San Clemente,CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4  -->
+
+
+                <!-- fleche droite  -->
+                <div class="col-1 d-flex justify-content-center align-items-center ">
+                    <a href=""><i class="fas fa-arrow-right fleche"></i></a>
+                </div>
+                <!-- fin fleche droite  -->
+
+            </div>
+        </div>
+        <!-- fin cards group  -->
+
+    </section>
+    <!-- fin section 2 team  -->
+
+    <!-- ============================================================================================== -->
+
+    <!-- section 3 update  -->
+    <section id="section3">
+
+        <!-- div titre  -->
+        <div class="div-titre d-flex justify-content-center flex-column align-items-center mb-5">
+            <h1>LATEST UPDATES </h1>
+            <i class="fas fa-times fa-2x"></i>
+        </div>
+        <!-- fin div titre  -->
+
+
+
+        <!-- div cards  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-3 offset-1 blog" style="width: 18rem;">
+                    <img src="./img/blog1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Ellie Turner and Jobe Harris have taken out the 2016 British National Surf
+                            Championships.</p>
+                    </div>
+                </div>
+                <div class="col-3 offset-1 blog" style="width: 18rem;">
+                    <img src="./img/blog2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">A large group of surfers invaded the coast of La Jolla Shores, in
+                            California, with a single goal in mind.</p>
+                    </div>
+                </div>
+                <div class="col-3 offset-1 blog" style="width: 18rem;">
+                    <img src="./img/blog3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Surfboards are constantly evolving, and there are multiple board designs
+                            for a broad range of environments.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- fin div cards -->
+
+
+
+        <!-- div bouton  -->
+        <div class="d-flex justify-content-center align-items-center div-bouton ">
+            <button type="button" class="btn btn-lg bouton5">VIEW ALL POST</button>
+        </div>
+        <!-- fin div bouton  -->
+
+    </section>
+    <!-- fin section 3 update  -->
+
+    <!-- ====================================================================================================== -->
+
+    <!-- section insta  -->
+    <section id="section4">
+        <div class="div-titre d-flex justify-content-center flex-column align-items-center mb-5">
+            <h1>INSTAGRAM</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 div-img row g-0">
+                    <div class="col-6">
+                        <img src="./img/insta1.png" alt="">
+                        <img src="./img/insta3.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="./img/insta2.png" alt="">
+                        <img src="./img/insta4.png" alt="">
+                    </div>
+                    <div class="d-flex follow justify-content-around align-items-center col-6">
+                        <i class="fab fa-instagram"></i>
+                        <h3>FOLLOW US</h3>
+                        <p>@surfersco</p>
+                    </div>
+                </div>
+                <div class="col-5 offset-1">
+                    <img src="./img/Facebook.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- fin section insta  -->
+
+    <!-- ========================================================================================= -->
+
+    <!-- footer  -->
+    <footer>
+
+
+        <!-- section link  -->
+        <section class="d-flex align-items-center" id="footer-section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 offset-6">
+                        <ul class="">
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> About</a></li>
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> Boards</a></li>
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> Accessories</a>
+                            </li>
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> Blog</a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> Technologies</a>
+                            </li>
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> Team</a></li>
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> Dealers</a></li>
+                            <li><img src="./img/Waves_yellow.png" alt="petite vague jaune"><a href=""> Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- fin section link -->
+
+
+
+        <!-- section newsletter  -->
+        <section id="footer-section2">
+            <div class="container ">
+                <div class="row footer-row">
+                    <!-- div certif  -->
+                    <div class="col-6 d-flex align-items-start">
+                        <div class="d-flex align-items-center certif">
+                            <p>© 2017 Surfers Co.</p>
+                            <i class="fas fa-circle"></i>
+                            <p>Design by @lucaalco</p>
+                        </div>
+                    </div>
+                    <!-- fin  div certif  -->
+
+
+
+                    <!-- div form newletter -->
+                    <div class="col-5 d-flex flex-column justify-content-center">
+                        <h3>Subscribe to our newsletter</h3>
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingInputGroup"></label>
+
+                            <!-- div input mail  -->
+                            <div class="input-group">
+                                <div
+                                    class="input-group-text border-top-0 border-start-0 border-end-0 bg-transparent formulaire ">
+                                    <i class="fas fa-envelope"></i> <input type="text"
+                                        class="form-control  bg-transparent border-0" placeholder="Your e-mail">
+                                    <button class="btn envoyer"><i class="fas fa-arrow-right fleche-envoyer"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- fin div input mail  -->
+
+                        </div>
+                    </div>
+                    <!-- fin div newletter  -->
+
+                </div>
+            </div>
+
+        </section>
+        <!-- fin section newletter  -->
+
+    </footer>
+    <!-- fin footer  -->
+
+</body>
+
+</html>
