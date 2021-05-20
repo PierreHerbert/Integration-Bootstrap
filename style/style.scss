@@ -1,0 +1,520 @@
+body {
+
+
+    // header 
+    header {
+        background: linear-gradient(to top, white 50%, transparent 70%), url("../img/Surfing.png") no-repeat top / 100% 700px;
+        height: 1100px;
+
+        // nav bar 
+        nav {
+            font-family: "Montserrat";
+            color: black;
+
+            h3 {
+                color: black;
+                font-weight: 700;
+            }
+
+            #div-nav {
+                ul {
+                    li {
+                        a {
+                            color: black;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            #reseaux {
+                display: flex;
+                justify-content: space-around;
+
+                li {
+                    list-style: none;
+                    color: white;
+
+                    i {
+                        background-color: black;
+                        padding: 10px;
+                        border-radius: 20px;
+                    }
+
+                    .fb {
+                        padding-left: 13px;
+                        padding-right: 13px;
+                    }
+                }
+            }
+        }
+
+        // fin nav bar 
+
+        // titre de la page 
+        #partie1 {
+            height: 300px;
+
+            .titre1 {
+
+                h1 {
+                    font-family: "PlayFair Display";
+                    font-style: italic;
+                    color: black;
+                }
+            }
+
+
+            .titre2 {
+
+                color: white;
+                font-family: "PlayFair Display";
+                font-style: italic;
+            }
+
+        }
+
+        // fin titre de la page 
+
+
+        // partie planche de surf 
+        .surf {
+            .planche {
+                background-color: white;
+                padding: 0;
+                box-shadow: 5px 5px 10px 5px grey;
+                height: 528px;
+
+                #triangle {
+                    width: 0;
+                    height: 0;
+                    border-top: 0px solid transparent;
+                    border-bottom: 528px solid transparent;
+                    border-left: 500px solid #00d2ff;
+                    z-index: 2;
+                    position: absolute;
+                }
+
+                #surf-img {
+                    z-index: 3;
+                    position: absolute;
+                }
+
+                .surf-titre {
+                    height: 528px;
+
+                    #etoiles {
+                        .stars {
+                            color: #f2d800;
+                        }
+                    }
+
+                    .bouton2 {
+                        background-color: #f2d800;
+                        height: 30%;
+                        color: white;
+                        height: 38px;
+                    }
+
+                    ul {
+                        li {
+                            button {
+                                font-family: "Montserrat";
+                                color: grey;
+                            }
+                        }
+                    }
+
+                    .bouton4 {
+                        color: white;
+
+                    }
+
+
+                    h3 {
+                        margin-top: 15px;
+                        font-family: "Montserrat";
+                        font-weight: 700;
+
+                    }
+
+
+                    .bouton1 {
+                        background-color: #00b0ff;
+                        color: white;
+                        font-family: "Montserrat";
+                        font-weight: 500;
+                    }
+
+
+
+                    .prix {
+                        font-family: "Montserrat";
+                        font-weight: 700;
+                    }
+
+                    .all-boards {
+                        color: #00b0ff;
+                        text-decoration: none;
+                        border-bottom: 2px solid #00b0ff;
+                    }
+
+                }
+
+                .row {
+
+
+                    #boards {
+                        position: absolute;
+                        z-index: 1;
+
+                        h3 {
+                            writing-mode: vertical-lr;
+                            text-orientation: mixed;
+                        }
+
+                    }
+                }
+            }
+
+            .bouton3 {
+                background-color: #f2d800;
+
+                color: white;
+                width: 2%;
+                margin-top: 13px;
+            }
+        }
+
+        // fin partie planche de surf 
+
+    }
+
+    // fin header 
+
+    // =======================================================================
+
+    // section video surf 
+    #section1 {
+        height: 1200px;
+
+        // image en arriere plan 
+        #img-surf {
+            position: absolute;
+            z-index: 1;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        // fin image en arrioere plan 
+
+
+
+        // titre en arriere plan 
+        #ABOUT-US {
+            position: absolute;
+            margin-top: -250px;
+            z-index: 0;
+            font-size: 300px;
+            opacity: 5%;
+
+        }
+
+        // fin titre en arriere plan 
+
+
+
+        // zone de texte au dessus de l'image 
+        .div-text {
+            height: 700px;
+            z-index: 2;
+            position: absolute;
+
+            .container-text {
+                h3 {
+                    font-family: "Montserrat";
+                    margin-top: 150px;
+                }
+
+                p {
+                    font-family: "PlayFair Display";
+                    font-weight: 300;
+                    font-size: 25px;
+                }
+
+                a {
+                    color: #00b0ff;
+                    font-family: "Montserrat";
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        // fin zone de texte par dessus image 
+
+
+
+        // video de surf 
+        #div-img-surf {
+            position: absolute;
+            z-index: 3;
+            height: 900px;
+
+            img {
+                height: 386px;
+                width: 586px;
+            }
+        }
+
+        // fin video de surf 
+
+    }
+
+    // fin section video surf 
+
+    // ===============================================================================================
+
+    // section team 
+    #section2 {
+        height: 700px;
+
+        #OUR-TEAM {
+            position: absolute;
+            margin-top: -250px;
+            z-index: -1;
+            font-size: 300px;
+            opacity: 5%;
+        }
+
+        h5 {
+            font-family: "Montserrat";
+        }
+
+        p {
+            font-family: "Raleway";
+            font-weight: 300;
+        }
+
+        .fleche {
+            background-color: white;
+            border-radius: 50px;
+            box-shadow: 0px 0px 5px 5px grey;
+            padding: 15px;
+
+        }
+
+        .team1 {
+            background-color: white;
+            box-shadow: 5px 5px 10px 5px grey;
+            z-index: 2;
+            height: 500px;
+            width: 300px;
+        }
+
+        .team2 {
+            background-color: #00d2ff;
+            box-shadow: 5px 5px 10px 5px grey;
+            z-index: 1;
+            height: 550px;
+            width: 300px;
+            color: white;
+        }
+
+        .team3 {
+            background-color: white;
+            box-shadow: 5px 5px 10px 5px grey;
+            z-index: 0;
+            height: 500px;
+            width: 300px;
+        }
+
+        .team4 {
+            background-color: white;
+            box-shadow: 5px 5px 10px 5px grey;
+            z-index: 1;
+            height: 550px;
+            width: 300px;
+        }
+    }
+
+    // fin section team 
+
+    // ===============================================================================================================================
+
+    // section update 
+    #section3 {
+        height: 700px;
+
+        h1 {
+            font-family: "Montserrat";
+        }
+
+        // passage de la souris sur une card 
+        .blog:hover {
+            box-shadow: 5px 5px 10px 5px grey;
+            color: #00b0ff;
+        }
+
+        // passage de la souris sur une card
+
+
+        // bouton 
+        .div-bouton {
+            height: 200px;
+
+            .bouton5 {
+                background-color: #00b0ff;
+                color: white;
+            }
+        }
+
+        // bouton 
+
+
+    }
+
+    // fin section update 
+
+    // ==============================================================================================================================
+
+    // section insta 
+    #section4 {
+        height: 500px;
+
+        img {
+            width: 100%;
+        }
+
+        .div-img {
+            background-color: white;
+        }
+
+        .div-titre {
+            width: 65%;
+            margin: 0;
+            position: absolute;
+            margin-top: -100px;
+            z-index: -1;
+            font-size: 300px;
+            opacity: 5%;
+
+            h1 {
+                font-family: "Montserrat";
+                font-size: 120px;
+            }
+        }
+
+        .follow {
+            i {
+                font-size: 30px;
+                color: #00b0ff;
+            }
+
+            h3 {
+                color: #00b0ff;
+                font-size: 20px;
+                font-family: "Montserrat";
+                font-weight: 700;
+                margin: 5px;
+            }
+
+            p {
+                font-size: 20px;
+                font-family: "Raleway";
+                margin: 5px;
+            }
+        }
+    }
+
+    // fin section insta 
+
+    // ========================================================================================================================================
+
+
+    // footer 
+    footer {
+        background-color: black;
+
+
+        // section link 
+
+        #footer-section1 {
+            height: 300px;
+
+            ul {
+                li {
+                    list-style: none;
+                    line-height: 40px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: "Raleway";
+                    }
+
+                    i {
+                        color: #f2d800;
+                    }
+                }
+            }
+        }
+
+        // fin section link 
+
+
+        // section newletters + certif 
+        #footer-section2 {
+            h3 {
+                color: white;
+                font-family: "Montserrat";
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            .input-group {
+                display: block;
+            }
+
+            .footer-row {
+                height: 200px;
+            }
+
+            .certif {
+                i {
+                    font-size: 5px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+
+
+            .formulaire {
+                border-color: gray;
+
+                i {
+                    font-size: 25px;
+                }
+
+                .envoyer {
+                    background-color: #00b0ff;
+                    border-radius: 150px;
+
+                    .fleche-envoyer {
+                        font-size: 13px;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        // fin section newletters + certif 
+    }
+}

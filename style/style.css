@@ -1,0 +1,408 @@
+body header {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, white), color-stop(70%, transparent)), url("../img/Surfing.png") no-repeat top/100% 700px;
+  background: linear-gradient(to top, white 50%, transparent 70%), url("../img/Surfing.png") no-repeat top/100% 700px;
+  height: 1100px;
+}
+
+body header nav {
+  font-family: "Montserrat";
+  color: black;
+}
+
+body header nav h3 {
+  color: black;
+  font-weight: 700;
+}
+
+body header nav #div-nav ul li a {
+  color: black;
+  font-weight: 400;
+}
+
+body header nav #reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header nav #reseaux li {
+  list-style: none;
+  color: white;
+}
+
+body header nav #reseaux li i {
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+body header nav #reseaux li .fb {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+body header #partie1 {
+  height: 300px;
+}
+
+body header #partie1 .titre1 h1 {
+  font-family: "PlayFair Display";
+  font-style: italic;
+  color: black;
+}
+
+body header #partie1 .titre2 {
+  color: white;
+  font-family: "PlayFair Display";
+  font-style: italic;
+}
+
+body header .surf .planche {
+  background-color: white;
+  padding: 0;
+  -webkit-box-shadow: 5px 5px 10px 5px grey;
+          box-shadow: 5px 5px 10px 5px grey;
+  height: 528px;
+}
+
+body header .surf .planche #triangle {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 528px solid transparent;
+  border-left: 500px solid #00d2ff;
+  z-index: 2;
+  position: absolute;
+}
+
+body header .surf .planche #surf-img {
+  z-index: 3;
+  position: absolute;
+}
+
+body header .surf .planche .surf-titre {
+  height: 528px;
+}
+
+body header .surf .planche .surf-titre #etoiles .stars {
+  color: #f2d800;
+}
+
+body header .surf .planche .surf-titre .bouton2 {
+  background-color: #f2d800;
+  height: 30%;
+  color: white;
+  height: 38px;
+}
+
+body header .surf .planche .surf-titre ul li button {
+  font-family: "Montserrat";
+  color: grey;
+}
+
+body header .surf .planche .surf-titre .bouton4 {
+  color: white;
+}
+
+body header .surf .planche .surf-titre h3 {
+  margin-top: 15px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+body header .surf .planche .surf-titre .bouton1 {
+  background-color: #00b0ff;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+body header .surf .planche .surf-titre .prix {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+body header .surf .planche .surf-titre .all-boards {
+  color: #00b0ff;
+  text-decoration: none;
+  border-bottom: 2px solid #00b0ff;
+}
+
+body header .surf .planche .row #boards {
+  position: absolute;
+  z-index: 1;
+}
+
+body header .surf .planche .row #boards h3 {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+body header .surf .bouton3 {
+  background-color: #f2d800;
+  color: white;
+  width: 2%;
+  margin-top: 13px;
+}
+
+body #section1 {
+  height: 1200px;
+}
+
+body #section1 #img-surf {
+  position: absolute;
+  z-index: 1;
+}
+
+body #section1 #img-surf img {
+  width: 100%;
+}
+
+body #section1 #ABOUT-US {
+  position: absolute;
+  margin-top: -250px;
+  z-index: 0;
+  font-size: 300px;
+  opacity: 5%;
+}
+
+body #section1 .div-text {
+  height: 700px;
+  z-index: 2;
+  position: absolute;
+}
+
+body #section1 .div-text .container-text h3 {
+  font-family: "Montserrat";
+  margin-top: 150px;
+}
+
+body #section1 .div-text .container-text p {
+  font-family: "PlayFair Display";
+  font-weight: 300;
+  font-size: 25px;
+}
+
+body #section1 .div-text .container-text a {
+  color: #00b0ff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+body #section1 #div-img-surf {
+  position: absolute;
+  z-index: 3;
+  height: 900px;
+}
+
+body #section1 #div-img-surf img {
+  height: 386px;
+  width: 586px;
+}
+
+body #section2 {
+  height: 700px;
+}
+
+body #section2 #OUR-TEAM {
+  position: absolute;
+  margin-top: -250px;
+  z-index: -1;
+  font-size: 300px;
+  opacity: 5%;
+}
+
+body #section2 h5 {
+  font-family: "Montserrat";
+}
+
+body #section2 p {
+  font-family: "Raleway";
+  font-weight: 300;
+}
+
+body #section2 .fleche {
+  background-color: white;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 5px 5px grey;
+          box-shadow: 0px 0px 5px 5px grey;
+  padding: 15px;
+}
+
+body #section2 .team1 {
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 10px 5px grey;
+          box-shadow: 5px 5px 10px 5px grey;
+  z-index: 2;
+  height: 500px;
+  width: 300px;
+}
+
+body #section2 .team2 {
+  background-color: #00d2ff;
+  -webkit-box-shadow: 5px 5px 10px 5px grey;
+          box-shadow: 5px 5px 10px 5px grey;
+  z-index: 1;
+  height: 550px;
+  width: 300px;
+  color: white;
+}
+
+body #section2 .team3 {
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 10px 5px grey;
+          box-shadow: 5px 5px 10px 5px grey;
+  z-index: 0;
+  height: 500px;
+  width: 300px;
+}
+
+body #section2 .team4 {
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 10px 5px grey;
+          box-shadow: 5px 5px 10px 5px grey;
+  z-index: 1;
+  height: 550px;
+  width: 300px;
+}
+
+body #section3 {
+  height: 700px;
+}
+
+body #section3 h1 {
+  font-family: "Montserrat";
+}
+
+body #section3 .blog:hover {
+  -webkit-box-shadow: 5px 5px 10px 5px grey;
+          box-shadow: 5px 5px 10px 5px grey;
+  color: #00b0ff;
+}
+
+body #section3 .div-bouton {
+  height: 200px;
+}
+
+body #section3 .div-bouton .bouton5 {
+  background-color: #00b0ff;
+  color: white;
+}
+
+body #section4 {
+  height: 500px;
+}
+
+body #section4 img {
+  width: 100%;
+}
+
+body #section4 .div-img {
+  background-color: white;
+}
+
+body #section4 .div-titre {
+  width: 65%;
+  margin: 0;
+  position: absolute;
+  margin-top: -100px;
+  z-index: -1;
+  font-size: 300px;
+  opacity: 5%;
+}
+
+body #section4 .div-titre h1 {
+  font-family: "Montserrat";
+  font-size: 120px;
+}
+
+body #section4 .follow i {
+  font-size: 30px;
+  color: #00b0ff;
+}
+
+body #section4 .follow h3 {
+  color: #00b0ff;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin: 5px;
+}
+
+body #section4 .follow p {
+  font-size: 20px;
+  font-family: "Raleway";
+  margin: 5px;
+}
+
+body footer {
+  background-color: black;
+}
+
+body footer #footer-section1 {
+  height: 300px;
+}
+
+body footer #footer-section1 ul li {
+  list-style: none;
+  line-height: 40px;
+}
+
+body footer #footer-section1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway";
+}
+
+body footer #footer-section1 ul li i {
+  color: #f2d800;
+}
+
+body footer #footer-section2 h3 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+body footer #footer-section2 .input-group {
+  display: block;
+}
+
+body footer #footer-section2 .footer-row {
+  height: 200px;
+}
+
+body footer #footer-section2 .certif i {
+  font-size: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body footer #footer-section2 .certif p {
+  margin: 0;
+}
+
+body footer #footer-section2 .formulaire {
+  border-color: gray;
+}
+
+body footer #footer-section2 .formulaire i {
+  font-size: 25px;
+}
+
+body footer #footer-section2 .formulaire .envoyer {
+  background-color: #00b0ff;
+  border-radius: 150px;
+}
+
+body footer #footer-section2 .formulaire .envoyer .fleche-envoyer {
+  font-size: 13px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
